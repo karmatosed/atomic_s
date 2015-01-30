@@ -12,7 +12,7 @@
 
 	<footer id="colophon" class="site-footer" role="contentinfo">
 
-		//
+		<?php atomic_s_siteinfo(); ?>
 
 	</footer><!-- #colophon -->
 </div><!-- #page -->
