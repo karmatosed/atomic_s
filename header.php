@@ -26,7 +26,7 @@
 		<?php atomic_s_branding(); ?>
 
 		<?php atomic_s_primarynav(); ?>
-		
+
 	</header><!-- #masthead -->
 
 	<div id="content" class="site-content">
