@@ -9,7 +9,7 @@
 ?>
 
 	</div><!-- #content -->
-	
+
 	<?php atomic_s_footer(); ?>
 
 </div><!-- #page -->

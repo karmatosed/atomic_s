@@ -15,6 +15,7 @@ require get_template_directory() . '/elements/structures/article/article-noresul
 require get_template_directory() . '/elements/structures/article/article-page.php';
 require get_template_directory() . '/elements/structures/article/article-search.php';
 require get_template_directory() . '/elements/structures/article/article-single.php';
+require get_template_directory() . '/elements/structures/article/article.php';
 
 require get_template_directory() . '/elements/structures/comments/comments-title.php';
 require get_template_directory() . '/elements/structures/comments/nav-comment-below.php';
@@ -28,3 +29,11 @@ require get_template_directory() . '/elements/structures/global/site-info.php';
 require get_template_directory() . '/elements/structures/parts/archive-description.php';
 require get_template_directory() . '/elements/structures/parts/archive-title.php';
 require get_template_directory() . '/elements/structures/parts/not-found.php';
+require get_template_directory() . '/elements/structures/parts/sidebar.php';
+
+require get_template_directory() . '/elements/views/view-archive.php';
+require get_template_directory() . '/elements/views/view-error.php';
+require get_template_directory() . '/elements/views/view-index.php';
+require get_template_directory() . '/elements/views/view-page.php';
+require get_template_directory() . '/elements/views/view-search.php';
+require get_template_directory() . '/elements/views/view-single.php';
