@@ -15,11 +15,16 @@ require get_template_directory() . '/elements/structures/article/article-noresul
 require get_template_directory() . '/elements/structures/article/article-page.php';
 require get_template_directory() . '/elements/structures/article/article-search.php';
 require get_template_directory() . '/elements/structures/article/article-single.php';
+
 require get_template_directory() . '/elements/structures/comments/comments-title.php';
 require get_template_directory() . '/elements/structures/comments/nav-comment-below.php';
 require get_template_directory() . '/elements/structures/comments/nav-comment-above.php';
+
 require get_template_directory() . '/elements/structures/global/branding.php';
+require get_template_directory() . '/elements/structures/global/footer.php';
+require get_template_directory() . '/elements/structures/global/header.php';
 require get_template_directory() . '/elements/structures/global/site-info.php';
+
 require get_template_directory() . '/elements/structures/parts/archive-description.php';
 require get_template_directory() . '/elements/structures/parts/archive-title.php';
 require get_template_directory() . '/elements/structures/parts/not-found.php';

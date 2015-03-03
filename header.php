@@ -21,12 +21,6 @@
 <div id="page" class="hfeed site">
 	<a class="skip-link screen-reader-text" href="#content"><?php _e( 'Skip to content', 'atomic_s' ); ?></a>
 
-	<header id="masthead" class="site-header" role="banner">
-
-		<?php atomic_s_branding(); ?>
-
-		<?php atomic_s_primarynav(); ?>
-
-	</header><!-- #masthead -->
+	
 
 	<div id="content" class="site-content">
