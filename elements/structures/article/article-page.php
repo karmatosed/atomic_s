@@ -1,16 +1,10 @@
-<?php
-/**
- * @package atomic_s
- */
-?>
+<?
 
+function atomic_s_articlepage() {
+?>
 <article id="post-<?php the_ID(); ?>" <?php post_class(); ?>>
 	<header class="entry-header">
 		<?php the_title( '<h1 class="entry-title">', '</h1>' ); ?>
-
-		<div class="entry-meta">
-			<?php atomic_s_posted_on(); ?>
-		</div><!-- .entry-meta -->
 	</header><!-- .entry-header -->
 
 	<div class="entry-content">
@@ -24,6 +18,8 @@
 	</div><!-- .entry-content -->
 
 	<footer class="entry-footer">
-		<?php atomic_s_entry_footer(); ?>
+		<?php edit_post_link( __( 'Edit', 'atomic_s' ), '<span class="edit-link">', '</span>' ); ?>
 	</footer><!-- .entry-footer -->
 </article><!-- #post-## -->
+<?php
+}
