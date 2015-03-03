@@ -23,9 +23,9 @@ Nicolas Gallagher and Jonathan Neal http://necolas.github.com/normalize.css/
 >>> TABLE OF CONTENTS:
 ----------------------------------------------------------------
 --------------------------------------------------------------*/
-@import "atoms/variables/colors";
-@import "atoms/variables/fonts";
-@import "atoms/variables/typography";
+@import "bricks/variables/colors";
+@import "bricks/variables/fonts";
+@import "bricks/variables/typography";
 @import "views/variables/layout";
 
 @import "_utilities/mixins/mixins";
@@ -35,35 +35,35 @@ Nicolas Gallagher and Jonathan Neal http://necolas.github.com/normalize.css/
 @import "_utilities/clearings";
 @import "_utilities/global";
 
-@import "atoms/buttons/buttons";
-@import "atoms/forms/inputs";
-@import "atoms/lists/definition";
-@import "atoms/lists/ordered";
-@import "atoms/lists/unordered";
-@import "atoms/media/captions";
-@import "atoms/media/galleries";
-@import "atoms/media/images";
-@import "atoms/media/media";
-@import "atoms/tables/tables";
-@import "atoms/text/blockquote";
-@import "atoms/text/headings";
-@import "atoms/text/hr";
-@import "atoms/text/paragraph";
-@import "atoms/text/preformatted";
+@import "bricks/buttons/buttons";
+@import "bricks/forms/inputs";
+@import "bricks/lists/definition";
+@import "bricks/lists/ordered";
+@import "bricks/lists/unordered";
+@import "bricks/media/captions";
+@import "bricks/media/galleries";
+@import "bricks/media/images";
+@import "bricks/media/media";
+@import "bricks/tables/tables";
+@import "bricks/text/blockquote";
+@import "bricks/text/headings";
+@import "bricks/text/hr";
+@import "bricks/text/paragraph";
+@import "bricks/text/preformatted";
 
-@import "molecules/forms/comment";
-@import "molecules/forms/search";
-@import "molecules/navigation/content";
-@import "molecules/navigation/links";
-@import "molecules/navigation/mobile";
-@import "molecules/navigation/primary";
-@import "molecules/navigation/secondary";
-@import "molecules/navigation/social";
+@import "buildlings/forms/comment";
+@import "buildlings/forms/search";
+@import "buildlings/navigation/content";
+@import "buildlings/navigation/links";
+@import "buildlings/navigation/mobile";
+@import "buildlings/navigation/primary";
+@import "buildlings/navigation/secondary";
+@import "buildlings/navigation/social";
 
-@import "organisms/comments/comments";
-@import "organisms/global/footer";
-@import "organisms/global/header";
-@import "organisms/sections/widgets";
+@import "structures/comments/comments";
+@import "structures/global/footer";
+@import "structures/global/header";
+@import "structures/sections/widgets";
 
 @import "views/article";
 @import "views/blog";
